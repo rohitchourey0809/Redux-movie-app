@@ -18,7 +18,7 @@ function App() {
         <Route path="/" exact element={<Home />} />
         <Route path="/movie/:imdbId" element={<MovieDetail />} />
 
-        <Route exact path = "*" element={<PageNotFound />} />
+        <Route exact path="*" element={<PageNotFound />} />
       </Routes>
       <Footer />
     </div>
